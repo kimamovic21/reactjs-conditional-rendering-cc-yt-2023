@@ -1,0 +1,20 @@
+ Conditionally Rendering Components in React
+ (https://www.youtube.com/watch?v=65QCiF3oMGU)
+
+ -kreiramo ReactJS Vite projekt
+ -instaliramo TailwindCSS paket u terminalu
+ -kreiramo folder components
+ -u folderu components kreiramo komponente Advanced.jsx, Basic.jsx, Intermediate.jsx
+ -u komponentu App.jsx importujemo React Hook useState
+ -u komponenti App.jsx kreiramo state varijablu const [selectedItem, setSelectedItem] = useState(0)
+ -u komponenti App.jsx kreiramo niz data sa vise objekata
+ -u return izjavi varijabli data dodajemo metodu .map()
+ -u metodi .map() kreiramo div element
+ -div elementu dodajemo className i TailwindCSS klase
+ -div elementu dodajemo key
+ -u dogadaj onClick proslijedujemo anonimnu funkciju
+ -u anonimnu funkciju proslijedujemo setSelectedItem(information.id)
+ -u div elementu kreiramo tri p elementa
+ -u komponentu App.jsx importujemo komponente iz foldera components 
+ -div elementu dodajemo dogadaj onClick
+ -dodajemo uslove ternarni operator {selectedItem && ...} 
